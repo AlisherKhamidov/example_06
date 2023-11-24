@@ -2,10 +2,13 @@ public class Main {
     public static void main(String[] args) {
         int x = 10;
         int y = 15;
-        sum(x, y);
+
+        int result = sum(x, y);
+
+        System.out.println("The sum of " + x + " and " + y + " = " + result);
     }
 
-    private static void sum(int x, int y) {
-        System.out.println("The sum of " + x + " and " + y + " = " + (x + y));
+    private static int sum(int x, int y) {
+        return x + y;
     }
 }
