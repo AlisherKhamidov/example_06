@@ -6,5 +6,5 @@ public class Main {
     System.out.println(add(x, y));
   }
   public static int add(int x, int y){
-    returnx + y;
+    return x + y;
   }
